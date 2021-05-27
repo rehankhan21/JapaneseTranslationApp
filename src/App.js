@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import Translate from './Translate'
 import Nav from './Nav';
 import AnimeList from './AnimeList';
-import MaterialNav from './MaterialNav';
+// import MaterialNav from './MaterialNav';
+import TopAnime from './TopAnime'
 
 function App() {
   return (
@@ -15,10 +16,12 @@ function App() {
         <Nav />
         {/* <MaterialNav /> */}
         <Switch>
-          <Route path="/" exact component={ReduxCom} />
+          {/* <Route path="/" exact component={ReduxCom} /> */}
           {/* <Redux /> */}
-          <Route path="/translate" component={Translate} />
+          
+          <Route path="/" exact component={Translate} />
           <Route path="/animelist" component={AnimeList} />
+          <Route path="/topanime" component={TopAnime}/>
         </Switch>
       </div>
     </Router>

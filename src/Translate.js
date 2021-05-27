@@ -9,11 +9,7 @@ class Translate extends Component {
         super(props)
 
         this.state = {
-            list: [
-                {
-                    
-                },
-            ],
+            list: [],
             word: "hello",
             translated: ""
         }
