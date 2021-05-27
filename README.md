@@ -1,3 +1,7 @@
+### End User / Problem
+
+This is a website that allows users to take any english word they want and translate it to Japanese using a translation api. I want the user to be able to use the translated word and search an anime database for animes that include the translated word in its name. Anime is very popular in Japan and alot of foreigners who learn Japanese also really like anime. I wanted to combine the learning of Japanese with the fun of searching and finding new  interesting animes.
+
 ### Build With
 
 * [HTML]
