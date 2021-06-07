@@ -9,6 +9,7 @@ This is a website that allows users to take any english word they want and trans
 * [JavaScript]
 * [React]
 * [Axios]
+* [Redux]
 
 # Getting Started with Create React App
 
